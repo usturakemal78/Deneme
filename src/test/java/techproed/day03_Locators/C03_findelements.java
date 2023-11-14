@@ -19,7 +19,6 @@ public class C03_findelements {
         driver.get("https://amazon.com");
 
 
-        //Sayfadaki liklerin sayısını ve linkleri yazdıralım
         /*
         findelement ile bir webelemente ulaşabilirken, birden fazla webelement için findelements() methodu
         kullanırız. Bu webelementlerin sayısına ulaşmak için ya da bu webElementlerin yazısını konsola yazdırabilmek için
@@ -27,6 +26,7 @@ public class C03_findelements {
         oluşturmuş olduğumuz list'i loop ile konsola yazdırabiliriz.
         */
 
+        //Sayfadaki liklerin sayısını ve linkleri yazdıralım
         List<WebElement> linklerinListesi = driver.findElements(By.tagName("a"));
         System.out.println("Linklerin Sayısı : " + linklerinListesi.size());
 

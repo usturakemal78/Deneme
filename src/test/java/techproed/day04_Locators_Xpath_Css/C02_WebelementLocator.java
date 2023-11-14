@@ -62,7 +62,7 @@ public class C02_WebelementLocator {
             placeholder="Search Amazon" class="nav-input nav-progressive-attribute" dir="auto"
             tabindex="0" aria-label="Search Amazon" spellcheck="false">
              */
-    //Relative Xpath syntax -->  //tagname[@attributeName='atributeValue']
+    //Relative Xpath syntax -->     //tagname[@attributeName='atributeValue']
                                     //input[@type='text']
     //                             (//input[@type='text'])[1]
                                    //*[@type='text']
